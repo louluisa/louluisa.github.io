@@ -1,1 +1,1 @@
-# Beispielwebseite für eine Foodtruck Restaiurant von Luisa Forberger 
+# Beispielwebseite für eine Foodtruck Restaurant von Luisa Forberger 
