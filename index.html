@@ -1,0 +1,104 @@
+<!--
+    Erstellt von
+    Name: Luisa Forberger
+    Matrikelnummer: 3006036
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>StreetBites</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><h1>StreetBites<span style="color: #9723c9">.</span></h1></a
+      >
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="menu.html">Speisen</a></li>
+          <li><a href="openinghours.html">Öffnungszeiten</a></li>
+          <li><a href="team.html">Über uns</a></li>
+          <li>
+            <a href="standortplan.html">Standortplan</a>
+          </li>
+          <li>
+            <a href="impressum.html">Impressum</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="content">
+        <div>
+          <h1 style="font-size: 40px">
+            Genieße den Geschmack der <br /><span class="multitext"></span>
+          </h1>
+          <br />
+          <p style="max-width: 600px">
+            Mit StreetBites bringen wir die Aromen der Straße direkt an deine
+            Fingerspitzen. Unsere Leidenschaft für authentisches Street-Food
+            gepaart mit dem Nervenkitzel der Erkundung garantiert, dass jeder
+            Bissen deine Geschmacksknospen entzündet und dich nach mehr
+            verlangen lässt.
+          </p>
+        </div>
+        <img
+          src="./img/fastfood.svg"
+          alt="Fast Food Image"
+          style="
+            margin-right: 10%;
+            min-width: 30rem;
+            width: 30%;
+            margin-left: 5%;
+          "
+        />
+      </div>
+
+      <div>
+        <h1 style="text-align: center; font-size: 40px">Unsere Garantie</h1>
+        <div class="row">
+          <div class="column">
+            <img src="./img/wallet.svg" alt="Geldbeutel" />
+
+            <p class="card-paragraph">
+              <span class="card-header">Unschlagbar Günstig!</span>
+              <br />
+              Bei StreetBites glauben wir daran, dass gutes Essen nicht teuer
+              sein muss. Unsere Preise sind erschwinglich, damit jeder die
+              Chance hat, die köstlichen Aromen des Street Foods zu genießen.
+            </p>
+          </div>
+          <div class="column">
+            <img src="./img/food.svg" alt="Burger" />
+            <p class="card-paragraph">
+              <span class="card-header">Beste Qualität!</span>
+              <br />
+              Bei StreetBites legen wir größten Wert auf Qualität und Frische.
+              Deshalb verwenden wir nur die besten Zutaten für unsere Gerichte.
+              Wir arbeiten eng mit lokalen Landwirten und Lieferanten zusammen,
+              um frische und hochwertige Produkte zu beziehen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typingEffect = new Typed(".multitext", {
+          strings: ["Vielfalt", "Kreativität", "Qualität", "Leidenschaft"],
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 80,
+          backDelay: 1500,
+        });
+      </script>
+    </main>
+  </body>
+</html>
